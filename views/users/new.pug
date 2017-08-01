@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+  h1 New User
+  a(href="/users") Atrás
+
+  form(action="/users" method="POST")
+    label Name
+    input(name="name" type="text" required="true" placeholder="Name")
+    input(name="user_name" type="text" required="true" placeholder="User_Name")
+    input(name="password" type="password" required="true" placeholder="Password")  
+    button Salvar
