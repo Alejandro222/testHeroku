@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+  h1 Welcome
+  table#waiters
+    tr
+      th Name
+      th User Name          
+      th Action          
+    each user in users
+      tr
+        td= user.name 
+        td= user.user_name
+        td 
+          form(method="POST" action="users/"+ user.id + "?_method=DELETE")
+            button Delete
+  a(href="/users/new") Nuevo      
