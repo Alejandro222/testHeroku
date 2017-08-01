@@ -1,10 +1,9 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "alejandro",
-    "database": "heroku_development",
-    "host": "localhost",
-    "dialect": "postgres"
+    "username": "gxcqbrcnnyqmwi",
+    "password": "37b09ad6770f5114555e24230f1b58df6364f14f2da9440ff6955b39e3774b0a",
+    "database": "dfn2is9881orbt",
+    "host": "ec2-107-20-250-195.compute-1.amazonaws.com"
   },
   "test": {
     "username": "root",
